@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Mod2-solution by Julia2012</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+  </head>
+  <body>
+    <div class="container">
+        <h1 class="project-name">Our menu</h1>
+        <div class="row">
+          <div class="column col-lg-4 col-md-6">
+            <div class="column_content">
+            <h3 class="bgcolor_blue">Chicken</h3>
+            Lorem ipsum dolor sit amet, nihil quando mediocrem eum cu. Elit mundi ex eos. Quo bonorum scaevola at, qui malis intellegebat in. Malorum antiopam similique cu mei, ex quo iusto facilisi perpetua, et justo patrioque vel. Eius nostro noluisse mei ei.
+          </div>
+          </div>
+          <div class="column col-lg-4 col-md-6">
+            <div class="column_content">
+              <h3 class="bgcolor_red">Beef</h3>
+              Lorem ipsum dolor sit amet, nihil quando mediocrem eum cu. Elit mundi ex eos. Quo bonorum scaevola at, qui malis intellegebat in. Malorum antiopam similique cu mei, ex quo iusto facilisi perpetua, et justo patrioque vel. Eius nostro noluisse mei ei.
+            </div>
+          </div>
+          <div class="column col-lg-4 col-md-12">
+            <div class="column_content">
+              <h3 class="bgcolor_green">Sushi</h3>
+              Lorem ipsum dolor sit amet, nihil quando mediocrem eum cu. Elit mundi ex eos. Quo bonorum scaevola at, qui malis intellegebat in. Malorum antiopam similique cu mei, ex quo iusto facilisi perpetua, et justo patrioque vel. Eius nostro noluisse mei ei.
+            </div>
+          </div>
+    </div>
+  </body>
+</html>

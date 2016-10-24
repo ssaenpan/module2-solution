@@ -1,10 +1,30 @@
-* {box-sizing: border-box;
-  padding: 0;
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
 }
-
-h1 {text-align: center;}
-
-h2 {display:inline-block;
+body {
+  font-size:15px;
+  font-family: Arial,sans-serif;
+  line-height: 1.1;
+  color:#000;
+}
+h1 {
+  margin: 25px 0;
+  font-size: 1.75em;
+  text-align: center;
+}
+p {
+  border: 1px solid black;
+  background-color: #A52A2A;
+  width: 90%;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: white;
+}
+h3 {
+  display:inline-block;
   font-size:1.25em;
   margin:0;
   padding:3px 8px;
@@ -13,45 +33,39 @@ h2 {display:inline-block;
   right:-1px;
   border: 1px solid black;
 }
-
-.background_blue {
-  background-color: #2e8899
+.bgcolor_red {
+  background-color: #ff0000;
+  color:#fff;
+}
+.bgcolor_blue {
+  background-color: #A3EEFF;
+}
+.bgcolor_green {
+  background-color: #A3FFF7;
 }
 
-.background_red {
-  background-color: #993f2e
-}
-
-.background_yellow {
-  background-color: #FAD201
-}
-
+/* Simple Responsive Framework. */
 .row {
   width: 100%;
 }
-
 .column {
   padding:0 15px 30px;
   float: left;
 }
-
 .column_content {
   border: 1px solid black;
   position:relative;
   padding:30px 15px 15px;
-  background-color: #d3d3d3;
-  width: 95%;
-  font-family: Helvetica;
-  color: black
-}
+  background-color: #eee;
 
+}
 .container {
-  padding: 0 15px;
+  padding:0 15px;
 }
-
+/********** Desktop view **********/
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
-}
+  }
   .col-lg-1 {
     width: 8.33%;
   }
@@ -89,10 +103,10 @@ h2 {display:inline-block;
     width: 100%;
   }
 }
-
-@media (min-width: 768px) and (max-width: 991px;) {
+/********** Tablet view **********/
+@media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-}
+  }
   .col-md-1 {
     width: 8.33%;
   }
@@ -128,5 +142,11 @@ h2 {display:inline-block;
   }
   .col-md-12 {
     width: 100%;
+  }
+}
+/********** Mobile view **********/
+@media (max-width: 767px) {
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    width:100%;
   }
 }
